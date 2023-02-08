@@ -1,5 +1,5 @@
 #!/bin/bash
-SOURCE_FOLD="IMX327s-jetson-nx-502-asset"
+SOURCE_FOLD="VEYE_IMX_DEPLOY"
 SOURCE_PATH=${HOME}/${SOURCE_FOLD}
 cd ${SOURCE_PATH}
 
