@@ -8,9 +8,9 @@ VEYE_IMX_DEPLOY仓库只适用于部分版本的Jetpack，参考如下
 
 - **[nvidia_jetson_veye_bsp](https://github.com/veyeimaging/nvidia_jetson_veye_bsp)**
 - **[Jetson Linux Package](https://developer.nvidia.com/embedded/jetson-linux)**
-- **[详细部署教程](http://wiki.veye.cc/index.php/VEYE_CS_Camera_for_Jetson_TX2/zh)**
+- **[详细部署教程](http://wiki.veye.cc/index.php/VEYE_CS_Camera_for_Jetson_TX2/zh)** 
 
-## 适用版本
+## 适用版本  
 
 - 相机：VEYE IMX327，VEYE IMX327s
 - [Jetson Linux 35.1](https://developer.nvidia.com/embedded/jetson-linux-r351)
