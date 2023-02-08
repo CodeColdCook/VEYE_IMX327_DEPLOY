@@ -1,6 +1,6 @@
 # VEYE_IMX_DEPLOY
 
-veye相机在JetsonNX上部署使用的方法
+veye相机在JetsonNX上部署使用的方法，目前仅在jetpack5.0上完成测试
 
 ## 部署须知
 
