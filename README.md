@@ -28,7 +28,9 @@ VEYE_IMX_DEPLOY仓库只适用于部分版本的Jetpack，参考如下
 2. 在运行部署脚本`deploy_imx327_on_jp502.sh`
 
    ```shell
-   $ cd /home/nvidia/VEYE_IMX_DEPLOY
+   $ cd [path to]/VEYE_IMX_DEPLOY
+   $ cp -r IMX327s-jetson-nx-502-asset /home/nvidia/
+   $ cd /home/nvidia/IMX327s-jetson-nx-502-asset
    $ ./deploy_imx327_on_jp502.sh
    [sudo] password for nvidia: 【输入密码】
    ```

@@ -1,5 +1,5 @@
 #!/bin/bash
-SOURCE_FOLD="VEYE_IMX_DEPLOY"
+SOURCE_FOLD="IMX327s-jetson-nx-502-asset"
 SOURCE_PATH=${HOME}/${SOURCE_FOLD}
 cd ${SOURCE_PATH}
 
@@ -17,7 +17,7 @@ echo "*** update dtb_file successful *** "
 echo "*** update extlinux.conf *** "
 sudo cp -f /boot/extlinux/extlinux.conf /boot/extlinux/extlinux.conf.bak
 # update extlinux.conf
-sudo cp -f ./conf/extlinux_jp502_imx327.conf /boot/extlinux/extlinux.conf
+sudo cp -f ./extlinux_jp502_imx327.conf /boot/extlinux/extlinux.conf
 echo "*** update extlinux.conf successful *** "
 
 echo "*** please reboot and check *** "
